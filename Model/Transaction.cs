@@ -1,5 +1,8 @@
+using System.Text.Json.Serialization;
+
 namespace pfin.Model;
 
+[JsonDerivedType(typeof(BankAccountTransaction), typeDiscriminator: "bankAccount")]
 public abstract class Transaction
 {
     public int Id { get; init; }
