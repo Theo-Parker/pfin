@@ -11,4 +11,18 @@ public class MonthlySummaryDTO
     public decimal TotalIncome { get; init; }
     public decimal NetSavings() => TotalIncome - TotalExpense;
     public TopExpenseDTO? TopExpense { get; init; }
+
+    public override string ToString()
+    {
+        return $"""
+        === Monthly Overview For {Month} {Year} ===
+        Total Expenses: {TotalExpense:C}
+        Total Income: {TotalIncome:C}
+        Net Savings: {NetSavings():C}
+
+        ===========================================
+
+        {(TopExpense is not null ? $"The top expense for this month was: \n\n {TopExpense}" : "There were no expenses")}
+        """;
+    }
 }
