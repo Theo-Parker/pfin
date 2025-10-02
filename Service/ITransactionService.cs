@@ -4,9 +4,9 @@ namespace pfin.Service;
 
 public interface ITransactionService
 {
-    public void AddTransaction(Transaction t);
+    public void AddTransaction(decimal amount, DateOnly date, string reference, bool IsCredit);
     public decimal GetBalance();
-    public IEnumerable<Transaction> GetTransactionsByMonth(Month month);
-    public IEnumerable<Transaction> GetTransactionsByYear(int year);
-    public IEnumerable<Transaction> GetTransactionsByDateRange(DateOnly first, DateOnly last);
+    public List<Transaction> GetTransactionsByMonth(Month month);
+    public List<Transaction> GetTransactionsByYear(int year);
+    public List<Transaction> GetTransactionsByDateRange(DateOnly first, DateOnly last);
 }

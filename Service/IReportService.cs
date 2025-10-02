@@ -6,5 +6,5 @@ namespace pfin.Service;
 public interface IReportService
 {
     public MonthlySummaryDTO GetMonthlySummary();
-    public MonthlySummaryDTO GetYearlySummary();
+    public YearlySummaryDTO GetYearlySummary();
 }
