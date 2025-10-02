@@ -1,5 +1,3 @@
-using System.ComponentModel;
-using System.Dynamic;
 using pfin.DTO;
 using pfin.Model;
 
@@ -18,11 +16,11 @@ public class ReportService : IReportService
 
     public MonthlySummaryDTO GetMonthlySummary()
     {
-        DateOnly date = new();
+        DateOnly date = DateOnly.FromDateTime(DateTime.Now);
         Month currentMonth = (Month)date.Month;
         int currentYear = date.Year;
 
-        var transactions = this._transactionService.GetTransactionsByMonth(currentMonth);
+        var transactions = this._transactionService.GetTransactionsByMonthAndYear(currentMonth, currentYear);
 
         var expenses = GetExpenseTransactions(transactions);
         var income = GetIncomeTransactions(transactions);
@@ -57,7 +55,7 @@ public class ReportService : IReportService
 
     public YearlySummaryDTO GetYearlySummary()
     {
-        DateOnly date = new();
+        DateOnly date = DateOnly.FromDateTime(DateTime.Now);
 
         List<Transaction> transactions = this._transactionService.GetTransactionsByYear(date.Year);
 
@@ -81,7 +79,7 @@ public class ReportService : IReportService
 
     private List<Transaction> GetIncomeTransactions(List<Transaction> transactions)
     {
-        List<Transaction> income = (from t in transactions where t is BankAccountTransaction bt && !bt.IsCredit select t).ToList();
+        List<Transaction> income = (from t in transactions where t is BankAccountTransaction bt && bt.IsCredit select t).ToList();
         return income;
     }
 
@@ -105,7 +103,7 @@ public class ReportService : IReportService
         List<Transaction> topExpenseTransactions;
         if (expenseTransactions.Count > numTopExpenses)
         {
-            topExpenseTransactions = expenseTransactions.GetRange(0, numTopExpenses + 1);
+            topExpenseTransactions = expenseTransactions.GetRange(0, numTopExpenses);
         }
         else
         {

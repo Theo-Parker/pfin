@@ -48,11 +48,11 @@ public class TransactionService : ITransactionService
         ).ToList();
     }
 
-    public List<Transaction> GetTransactionsByMonth(Month month)
+    public List<Transaction> GetTransactionsByMonthAndYear(Month month, int year)
     {
         return (
             from t in _transactions
-            where t.Date.Month == (int) month
+            where t.Date.Month == (int) month && t.Date.Year == year
             select t
         ).ToList();
     }
