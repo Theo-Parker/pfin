@@ -1,0 +1,482 @@
+[
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 1,
+    "Date": "2025-10-01",
+    "Amount": 75,
+    "Reference": "Transaction 1"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 2,
+    "Date": "2025-09-30",
+    "Amount": 100,
+    "Reference": "Transaction 2"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 3,
+    "Date": "2025-09-29",
+    "Amount": 125,
+    "Reference": "Transaction 3"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 4,
+    "Date": "2025-09-28",
+    "Amount": 150,
+    "Reference": "Transaction 4"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 5,
+    "Date": "2025-09-27",
+    "Amount": 175,
+    "Reference": "Transaction 5"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 6,
+    "Date": "2025-09-26",
+    "Amount": 200,
+    "Reference": "Transaction 6"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 7,
+    "Date": "2025-09-25",
+    "Amount": 225,
+    "Reference": "Transaction 7"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 8,
+    "Date": "2025-09-24",
+    "Amount": 250,
+    "Reference": "Transaction 8"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 9,
+    "Date": "2025-09-23",
+    "Amount": 275,
+    "Reference": "Transaction 9"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 10,
+    "Date": "2025-09-22",
+    "Amount": 300,
+    "Reference": "Transaction 10"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 11,
+    "Date": "2025-09-21",
+    "Amount": 325,
+    "Reference": "Transaction 11"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 12,
+    "Date": "2025-09-20",
+    "Amount": 350,
+    "Reference": "Transaction 12"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 13,
+    "Date": "2025-09-19",
+    "Amount": 75,
+    "Reference": "Transaction 13"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 14,
+    "Date": "2025-09-18",
+    "Amount": 100,
+    "Reference": "Transaction 14"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 15,
+    "Date": "2025-09-17",
+    "Amount": 125,
+    "Reference": "Transaction 15"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 16,
+    "Date": "2025-09-16",
+    "Amount": 150,
+    "Reference": "Transaction 16"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 17,
+    "Date": "2025-09-15",
+    "Amount": 175,
+    "Reference": "Transaction 17"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 18,
+    "Date": "2025-09-14",
+    "Amount": 200,
+    "Reference": "Transaction 18"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 19,
+    "Date": "2025-09-13",
+    "Amount": 225,
+    "Reference": "Transaction 19"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 20,
+    "Date": "2025-09-12",
+    "Amount": 250,
+    "Reference": "Transaction 20"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 21,
+    "Date": "2025-09-11",
+    "Amount": 275,
+    "Reference": "Transaction 21"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 22,
+    "Date": "2025-09-10",
+    "Amount": 300,
+    "Reference": "Transaction 22"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 23,
+    "Date": "2025-09-09",
+    "Amount": 325,
+    "Reference": "Transaction 23"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 24,
+    "Date": "2025-09-08",
+    "Amount": 350,
+    "Reference": "Transaction 24"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 25,
+    "Date": "2025-09-07",
+    "Amount": 75,
+    "Reference": "Transaction 25"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 26,
+    "Date": "2025-09-06",
+    "Amount": 100,
+    "Reference": "Transaction 26"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 27,
+    "Date": "2025-09-05",
+    "Amount": 125,
+    "Reference": "Transaction 27"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 28,
+    "Date": "2025-09-04",
+    "Amount": 150,
+    "Reference": "Transaction 28"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 29,
+    "Date": "2025-09-03",
+    "Amount": 175,
+    "Reference": "Transaction 29"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 30,
+    "Date": "2025-09-02",
+    "Amount": 200,
+    "Reference": "Transaction 30"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 31,
+    "Date": "2025-09-01",
+    "Amount": 225,
+    "Reference": "Transaction 31"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 32,
+    "Date": "2025-08-31",
+    "Amount": 250,
+    "Reference": "Transaction 32"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 33,
+    "Date": "2025-08-30",
+    "Amount": 275,
+    "Reference": "Transaction 33"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 34,
+    "Date": "2025-08-29",
+    "Amount": 300,
+    "Reference": "Transaction 34"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 35,
+    "Date": "2025-08-28",
+    "Amount": 325,
+    "Reference": "Transaction 35"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 36,
+    "Date": "2025-08-27",
+    "Amount": 350,
+    "Reference": "Transaction 36"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 37,
+    "Date": "2025-08-26",
+    "Amount": 75,
+    "Reference": "Transaction 37"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 38,
+    "Date": "2025-08-25",
+    "Amount": 100,
+    "Reference": "Transaction 38"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 39,
+    "Date": "2025-08-24",
+    "Amount": 125,
+    "Reference": "Transaction 39"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 40,
+    "Date": "2025-08-23",
+    "Amount": 150,
+    "Reference": "Transaction 40"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 41,
+    "Date": "2025-08-22",
+    "Amount": 175,
+    "Reference": "Transaction 41"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 42,
+    "Date": "2025-08-21",
+    "Amount": 200,
+    "Reference": "Transaction 42"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 43,
+    "Date": "2025-08-20",
+    "Amount": 225,
+    "Reference": "Transaction 43"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 44,
+    "Date": "2025-08-19",
+    "Amount": 250,
+    "Reference": "Transaction 44"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 45,
+    "Date": "2025-08-18",
+    "Amount": 275,
+    "Reference": "Transaction 45"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 46,
+    "Date": "2025-08-17",
+    "Amount": 300,
+    "Reference": "Transaction 46"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 47,
+    "Date": "2025-08-16",
+    "Amount": 325,
+    "Reference": "Transaction 47"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 48,
+    "Date": "2025-08-15",
+    "Amount": 350,
+    "Reference": "Transaction 48"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 49,
+    "Date": "2025-08-14",
+    "Amount": 75,
+    "Reference": "Transaction 49"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 50,
+    "Date": "2025-08-13",
+    "Amount": 100,
+    "Reference": "Transaction 50"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 51,
+    "Date": "2025-08-12",
+    "Amount": 125,
+    "Reference": "Transaction 51"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 52,
+    "Date": "2025-08-11",
+    "Amount": 150,
+    "Reference": "Transaction 52"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 53,
+    "Date": "2025-08-10",
+    "Amount": 175,
+    "Reference": "Transaction 53"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 54,
+    "Date": "2025-08-09",
+    "Amount": 200,
+    "Reference": "Transaction 54"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 55,
+    "Date": "2025-08-08",
+    "Amount": 225,
+    "Reference": "Transaction 55"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 56,
+    "Date": "2025-08-07",
+    "Amount": 250,
+    "Reference": "Transaction 56"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 57,
+    "Date": "2025-08-06",
+    "Amount": 275,
+    "Reference": "Transaction 57"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 58,
+    "Date": "2025-08-05",
+    "Amount": 300,
+    "Reference": "Transaction 58"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": true,
+    "Id": 59,
+    "Date": "2025-08-04",
+    "Amount": 325,
+    "Reference": "Transaction 59"
+  },
+  {
+    "$type": "bankAccount",
+    "IsCredit": false,
+    "Id": 60,
+    "Date": "2025-08-03",
+    "Amount": 350,
+    "Reference": "Transaction 60"
+  }
+]
